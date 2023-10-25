@@ -1,0 +1,8 @@
+.contentA{
+    background: rgb(14, 23, 27);
+}
+.contentA .card{
+    background: none;
+    color: rgb(223, 238, 156);
+}
+

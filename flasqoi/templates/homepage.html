@@ -1,0 +1,41 @@
+{% extends 'layouts.html' %}
+
+{% block contentA %} 
+      <div class="contentA">    
+        <div class="card text-center">            
+            <div class="card">
+              <h2 class="card-title">Fast & Secured Web hosting</h2>
+              <h5 class="card-text" style="padding: 10px;">Join any time. Cancel any time. Plans can be upgraded to fully functional ecommerce stores.</h3>
+             
+              <a href="#" class="btn btn-primary">from $5 / month</a>
+            </div>            
+        </div> 
+
+        <div class="melodymaker">
+          <form method="POST">
+              <!-- could be chatish request -->
+              <!-- <input type="submit" value="Generate Melody" name="generate"> -->
+              <button type="submit">Generate</button>
+          </form>   
+        </div>
+      </div>      
+  <script src="{{url_for('static', filename='main.js')}}"></script>  
+{% endblock contentA %}
+
+{% block contentB %}
+
+<div class="card text-center">
+  <div class="card-header">
+    
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Special title treatment</h5>
+    <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-body-secondary">
+   
+  </div>
+</div>
+  
+{% endblock %}
